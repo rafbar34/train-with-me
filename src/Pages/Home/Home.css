@@ -1,0 +1,103 @@
+
+.home-container {
+  box-sizing: border-box;
+  background-image: url("/src/images/backgroundseven.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.layout-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+}
+.title {
+  display: inline;
+  width: 40%;
+  text-align: center;
+  color: #f5f5f5;
+  margin: 35px auto 60px;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 34px;
+letter-spacing: 3.2px;
+word-spacing: 5.4px;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: uppercase;
+text-shadow: 2px 1px 6px rgba(245, 253, 253, 0.45);
+
+	
+}
+.triggle{
+  width: 0;
+height: 10vh;
+margin: -50px auto;
+border-top: 30px solid rgb(252, 252, 252);
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+transition: 1s ;
+}
+.triggle:hover{
+margin-top: -20px;
+}
+.first-card {
+  margin-left: 145px;
+  max-width: 35%;
+  
+
+}
+.second-card {
+  margin-top: 30px;
+  align-self: flex-end;
+  margin-right: 145px;
+  max-width: 35%;
+  
+}
+.third-card {
+  margin-top: 30px;
+  margin-left: 145px;
+  max-width: 35%;
+}
+.end-card {
+  background-color: black;
+  border-radius: 50px;
+  border: 3px solid purple;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  margin: 70px auto;
+  width: 80%;
+  font-family:'Courier New', Courier, monospace;
+}
+.about-card{
+  background-color: black;
+  border-radius: 50px;
+  border: 3px solid purple;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  font-family:'Courier New', Courier, monospace;
+  margin: 0px auto;
+  width: 60%;
+  height: auto;
+  
+}
+.about-card-text{
+  text-align: center;
+  text-justify: center;
+  opacity: 0.8;
+
+}
+.space{
+  height: 15vh;
+}

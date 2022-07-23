@@ -1,0 +1,76 @@
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  background: rgba(255, 255, 255, 0.08);
+border-radius: 0px 0px 16px 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.5px);
+border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 9px;
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.menu-links{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.headers {
+  display: inline;
+  color: #300303;
+  margin: 3px 1%;
+  padding: 1px 3%;
+  flex-wrap: nowrap;
+  transition: 0.5s;
+}
+
+.headers:hover {
+  cursor: pointer;
+  background-color: grey;
+  border-radius: 15px;
+}.about{
+  display: inline;
+  color: #300303;
+  margin: 3px 1%;
+  padding: 1px 3%;
+  flex-wrap: nowrap;
+  transition: 0.5s;
+}
+.buttonslogin{
+  display: flex;
+  width: 40vh;
+  justify-content: flex-end;
+  align-content: center;
+}
+.registersbtn {
+  margin-top: 5px;
+  
+  
+  
+}
+.register {
+  white-space: nowrap;
+  
+}
+.registerbtn {
+  background-color: white;
+  text-decoration: double;
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 310px;
+  border: 1px solid black;
+  margin-top: 6px;
+  margin-right: 5px;
+  transition: 0.5s;
+  padding: 5px 10px;
+  
+  
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.registerbtn:hover {
+  background-color: rgb(0, 47, 255);
+  opacity: 0.6;
+  border: 1px solid white;
+  cursor: pointer;
+}
